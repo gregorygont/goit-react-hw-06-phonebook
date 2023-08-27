@@ -1,11 +1,13 @@
 export const theme = {
   colors: {
-    black: '#000000',
-    white: '#ffffff',
-    primary: '#608B38',
-    background: '#dee2ff',
-    accent: '#C1C54F',
-    muted: '#8E9AAF',
+    black: '#000',
+    white: '#fff',
+    text: '#2a2a2a',
+    background: '#e8fff1',
+    primary: '#f7fffa',
+    secondary: '#b1dfc1',
+    accent: '#063a36',
+    muted: '#7ca78c',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
@@ -38,7 +40,7 @@ export const theme = {
     round: '50%',
   },
   shadows: {
-    textShadow: '0 0.4px 0.4px #fff',
-    boxShadow: '#8E9AAF 8px 8px 5px 0px',
+    textShadow: '0 1px 1px #fff',
+    boxShadow: 'rgb(0 0 0 / 24%) 10px 10px 5px 0px',
   },
 };
